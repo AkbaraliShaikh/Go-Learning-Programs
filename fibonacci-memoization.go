@@ -36,6 +36,7 @@ func fib(n int) (res int64) {
 	} else {
 		res = fib(n-1) + fib(n-2)
 	}
+
 	fibs[n] = res
 	return
 }
